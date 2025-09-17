@@ -3,5 +3,8 @@
 ## Gradle start up script for UN*X
 ##############################################################################
 
+# احصل على المسار الكامل للسكريبت
 DIR="$( cd "$( dirname "$0" )" && pwd )"
+
+# تنفيذ gradle-wrapper.jar الموجود في المجلد المناسب
 exec "$DIR/gradle/wrapper/gradle-wrapper.jar" "$@"
