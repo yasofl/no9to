@@ -9,16 +9,3 @@
 - 🔹 إدارة الأصدقاء والدردشات  
 
 ---
-
-## ⚙️ المتطلبات
-- Android Studio أو **Android SDK Command-line Tools**  
-- Gradle Wrapper (مرفق مع المشروع)  
-- حساب مجاني على [Supabase](https://supabase.com)  
-
----
-
-## 🚀 خطوات التشغيل
-1. استنسخ المشروع:
-   ```bash
-   git clone https://github.com/username/no9to.git
-   cd no9to
