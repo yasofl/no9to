@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="24dp">
+
+    <TextView android:id="@+id/tvLoginTitle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="تسجيل الدخول" android:textSize="24sp" android:layout_gravity="center" />
+
+    <EditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="البريد الإلكتروني" android:inputType="textEmailAddress" android:layout_marginTop="16dp"/>
+
+    <EditText android:id="@+id/etPassword" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="كلمة المرور" android:inputType="textPassword" android:layout_marginTop="8dp"/>
+
+    <Button android:id="@+id/btnLogin" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="دخول" android:layout_marginTop="16dp"/>
+
+    <TextView android:id="@+id/tvToRegister" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="ليس لديك حساب؟ تسجيل" android:layout_marginTop="24dp"/>
+</LinearLayout>
